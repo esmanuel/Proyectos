@@ -1,0 +1,76 @@
+*{
+    background-color:rgba(0, 8, 45,);
+}
+body{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallup.net/wp-content/uploads/2019/09/147012-bangkok-night-lights.jpg);
+    background-color:rgba(0, 8, 45,);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cajacentro {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin: 12% auto !important;
+    width: 600px;
+    height: 100%;
+    background-color: rgba(0, 8, 45, 0.87);
+    color: whitesmoke;
+    padding:3%;
+    border-radius: 20px;
+}
+h5{
+    width: 300px;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.hijo, .operaciones{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    
+}
+input{
+    margin: 15px 0px;
+    padding: 5px;
+    width: 300px;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+}
