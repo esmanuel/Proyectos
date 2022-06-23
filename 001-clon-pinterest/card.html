@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>card</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!---------------------- MENU NAVEGACION ------------------------>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/pinterest-icono.svg" alt="" width="auto" height="30">
+      </a>
+      <a class="navbar-brand nombre-pinterest" href="index.html">FakePinterest</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hoy</a>
+          </li>
+        </ul>
+        <form class="container-fluid">
+          <div class="input-group">
+            <input type="text" class="form-control barra-busqueda-inicio" placeholder="Buscar" aria-label="Buscar"
+              aria-describedby="basic-addon1">
+          </div>
+        </form>
+
+        <a class="navbar-brand icon-nav" href="#">
+          <img src="./img/icono-campana.svg" alt="" width="auto" height="30">
+        </a>
+
+
+        <a class="navbar-brand icon-nav" href="#">
+          <img src="./img/icono-bandeja.svg" alt="" width="auto" height="25">
+        </a>
+
+
+        <a class="navbar-brand icon-nav" href="#">
+          <img src="./img/icono-perfil.svg" alt="" width="auto" height="30">
+        </a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- TARJETA SELECCIONADA -->
+  <main>
+    <!----------------TARJETA IMAGEN LADO IZQUIERDO -->
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="card mb-3 shadow tarjeta" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://www.revistaconstruye.com.mx/images/cara.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <!-- ------------------- TARJETA LADO DERECHO -->
+                <div class="container">
+                  <div class="row row-cols-1">
+                    <div class="contenedor-accion">
+                      <div class="btn-accion">
+                          <div class="icono_tarjeta">
+                              <a class="nav-link" href="#">
+                                  <img src="./img/icono-3puntos.svg" alt="tres puntos" width="20"
+                                      height="20">
+                              </a>
+                          </div>
+                          <div class="icono_tarjeta">
+                              <a class="nav-link" href="#">
+                                  <img src="./img/icono-upload.svg" alt="icono subir" width="20"
+                                      height="20">
+                              </a>
+                          </div>
+                          <div class="icono_tarjeta">
+                              <a class="nav-link" href="#">
+                                  <img src="./img/icono-chain.svg" alt="icono subir" width="20"
+                                      height="20">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="btn-guardar">
+
+                          <button type="button" class="btn btn-danger save">Guardar</button>
+
+                      </div>
+                  </div>
+
+              </div>
+              <!---------------DESCRIPCIÓN TARJETA ---------------->
+          </div>
+      </div>
+      <div class="descripcion-tarjeta">
+          <div>
+              <h5 class="card-title">Escaleras</h5>
+              <p class="card-text"><small class="text-muted">Autor</small></p>
+          </div>
+          <div>
+              <p>Escaleras diseñadas por el equipo de arquitectura libre y diseño de interiores en el eqipo de FakeSordo Madaleno.</p>
+          </div>
+      </div>
+              <div class="upl-perfil">
+                <div class="perf">
+                  <div class="icono-perfil">
+                    <img src="./img/icono-perfil.png" alt="Icono perfil">
+                  </div>
+                  <div class="datos-perfil">
+                    <div class="datos">
+                      <a class="link-pie-foto" href="#"> umbral_arq</a>
+                    </div>
+                    <div class="datos">
+                      <p> 980,000 seguidores</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="contenedor-seguir">
+                  <div class="btn-seguir">
+                    <button type="button" class="btn btn-danger seguir">Seguir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- TIRA DE IMAGENES RELACIONADAS CON SELECCIÓN -->
+    <div class="container">
+      <div>
+        <h6>Más como esto...</h6>
+      </div>
+      <div class="row m-5">
+        <!-- COLUMNA 1 DE IMAGENES -->
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <a href="#">
+            <img class="w-100 mb-4 rounded"
+              src="https://images.adsttc.com/media/images/58ec/b9e7/e58e/ce8f/0300/0183/slideshow/05_Vertical_House.jpg?1491909087"
+              alt="Interior luz natural.">
+          </a>
+          <a href="#">
+            <img class="w-100 mb-4 rounded"
+              src="https://i.pinimg.com/736x/8f/f7/aa/8ff7aa135210b48853b421df2eb35d31.jpg" alt="Sala interior hotel.">
+          </a>
+          <a href="#">
+            <img class="w-100 mb-4 rounded" src="https://pomelostudio.cl/wp-content/uploads/2020/12/Objects2.png"
+              alt="Sillón cafe vintage.">
+          </a>
+        </div>
+        <!-- COLUMNA 2 DE IMAGENES -->
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <a href="#">
+            <img class="w-100 mb-4 rounded"
+              src="https://www.neo2.com/wp-content/uploads/2019/12/tendencias-interiorismo-2020-betapuntocero-x-house-2.jpg"
+              alt="Escaleras interiores minimalistas.">
+          </a>
+
+          <a href="#">
+            <img class="w-100 mb-4 rounded"
+              src="https://1.bp.blogspot.com/-1KqZOXmu-S4/YRa9OCcdAsI/AAAAAAAAEaI/oEqyppSV7sM-t8DVE45Or9UgZJjHdYZ1gCLcBGAsYHQ/s697/IMG_20210814_013146.jpg"
+              alt="Casa texturas frías.">
+          </a>
+          <a href="#"><img class="w-100 rounded" src="https://i.ytimg.com/vi/GI71fXmRrLM/maxresdefault.jpg"
+              alt="Sala blanca.">
+          </a>
+        </div>
+        <!-- COLUMNA 3 DE IMAGENES -->
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://images.adsttc.com/media/images/58ec/b867/e58e/ce8f/0300/0175/slideshow/21_Vertical_House.jpg?1491908703"
+                alt="Render Casa iluminada.">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAKfSPGQS_lQXUj91HM5c5xvQmTDqIciEAuA&usqp=CAU"
+                alt="Casa esquina ventanas.">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded" src="https://cdn.openpr.com/U/a/Ua01398613_g.jpg"
+                alt="Sala interior calida.">
+            </a>
+          </div>
+        </div>
+        <!-- COLUMNA 4 DE IMAGENES -->
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://static.wixstatic.com/media/83c04f_bf92b6f4fc2d411b8aaa0c3a75076b15~mv2_d_5616_3744_s_4_2.jpg/v1/fill/w_640,h_1288,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/83c04f_bf92b6f4fc2d411b8aaa0c3a75076b15~mv2_d_5616_3744_s_4_2.jpg"
+                alt="Interior fresco.">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 rounded"
+                src="https://i.pinimg.com/originals/ee/a4/6f/eea46f4ede1fa4331032b928c46212d9.jpg"
+                alt="Silla interior.">
+            </a>
+
+
+          </div>
+        </div>
+        <!-- COLUMNA 5 DE IMAGENES -->
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://i.pinimg.com/originals/06/b6/07/06b607d2c05ccfaaf02bc918119570c4.jpg" alt="Casa texturas.">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://i0.wp.com/nimvo.com/wp-content/uploads/2017/07/Glass-House.jpg?fit=1800%2C1200&ssl=1"
+                alt="Casa ventanas enormes.">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://2.bp.blogspot.com/-JPJ0aALj4r0/UhIJjVVO1KI/AAAAAAAAPbY/1DtzG1uwc5E/s1600/Arqui-Vasco-Vieira-Casa-Vale-do-Lobo-Vilamoura-portugal-1.jpg"
+                alt="Casa Vasco Vieira Vale del Lobo">
+            </a>
+          </div>
+        </div>
+        <!-- COLUMNA 6 DE IMAGENES -->
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://i.pinimg.com/736x/e6/e6/c8/e6e6c85602fadab7f63e1113e98d6222.jpg" alt="Casa iluminada.">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://www.arquitecturaydiseno.es/medio/2019/12/20/premio-neolith-casa-mmit-arquitectos-02_1fa968c5_1500x1000.jpg"
+                alt="Casa Premio Neolith">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded"
+                src="https://fundacioncompartir.org/sites/default/files/styles/articulo/public/interiorismo-sostenible-una-nueva-alternativa-de-formacion-tecnologica.jpg?itok=Lvz7hcbD"
+                alt="Foto interior">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img class="w-100 mb-4 rounded" src="https://i.blogs.es/20ba28/casa-verti-1/1366_2000.jpg"
+                alt="Casa vertical.">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BOTONES FLOTADOS SUMA E INTERROGACION -->
+    <div class="simbolos position-fixed">
+      <div class="atajo">
+        <p class="pieza">+</p>
+      </div>
+      <div class="atajo">
+        <p class="pieza"> ?</p>
+      </div>
+    </div>
+  </main>
+  <!-- FOOTER FAKE PINTEREST -->
+  <footer class="footer">
+
+    <h6>Todos los derechos reservados por FakePinterest©</h6>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
