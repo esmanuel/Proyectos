@@ -26,7 +26,7 @@ const cuentas = [ //cuentas[0].nombre
     {                   //1
         nombre: 'Deni',
         saldo: 350,
-        password: 'qwerty',
+        password: 'maya',
     },
     {                   //2
         nombre: 'Angelica',
