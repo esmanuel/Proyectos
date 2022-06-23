@@ -1,15 +1,13 @@
 *{
     background-color:rgba(0, 8, 45,);
 }
+.bg-dark{
+    background-color: black;
+}
 body{
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
     background-image: url(https://wallup.net/wp-content/uploads/2019/09/147012-bangkok-night-lights.jpg);
-    background-color:rgba(0, 8, 45,);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
 }
 
 .cajacentro {

@@ -82,7 +82,7 @@ function cantidadDeposito() {
         alert(` ¡¡Intentalo de nuevo!! Para realizar un depósito la cantidad debe ser mayor a $0.00 mxn.`);
     } else if ((cuentas[index].saldo + valorADepositar) > 990) {
         let maximo = 990 - cuentas[index].saldo;
-        alert(`Solo puedes depositar $${maximo}.00 mxn para tener un max. de $990.00 mxn en tu cuenta. `);
+        alert(`Solo puedes depositar $${maximo}.00 mxn. Tienes un límite max. de $990.00 mxn en tu cuenta. `);
     }
     else {
 
@@ -127,7 +127,7 @@ function cantidadRetiro() {
 
     } else if ((cuentas[index].saldo - valorARetirar) < 10) {
         let minimo = cuentas[index].saldo - 10;
-        alert(`Solo puedes retirar $${minimo}.00 mxn. Recuerda, debes tener un min. de $10.00 mxn en tu cuenta. `)
+        alert(`Solo puedes retirar $${minimo}.00 mxn. ¡Recuerda! Debes tener un mín. de $10.00 mxn en tu cuenta. `)
     } else {
 
         cuentas[index].saldo = (cuentas[index].saldo - valorARetirar);
@@ -163,7 +163,7 @@ function saldo() {
 }
 //click boton SALIR
 function salir() {
-    alert('Estas saliendo de tu sesión. ¡Te esperamos pronto!');
+    alert('Estás saliendo de tu cuenta Dev. ¡Hasta pronto!');
 
     inicioDeSesion.classList.add('visible');
     inicioDeSesion.classList.remove('invisible');
