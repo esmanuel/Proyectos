@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Press+Start+2P&family=Stoke:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="pokeapi.js"></script>
+  <script defer src="app.js"></script>
+  <title>Pokedéx</title>
+  <link rel="icon" type="image/x-icon" href="assets/poke.ico">
+</head>
+
+<header>
+  
+  <div class="header-element">
+    <h1>Pokedéx</h1>
+  </div>
+  <div class="header-element">
+    <img src="./assets/poke.png" alt="Icono pokeball">
+  </div>
+
+  
+</header>
+
+<body>
+  <div class="frame">
+    <div class='screen'>
+      <div id="list-results" class="invisible"></div>
+    </div>
+  </div>
+  <div class="busqueda">
+    <label for="Pokemon">Buscar Pokemón:</label> <br>
+    <input id="search-input" oninput="search()" type="text" placeholder="Por ejemplo: Bulbasaur" required><br />
+  </div>
+
+  
+</body>
+<footer>
+  Pokedéx busqueda JSON sin ©
+</footer>
+
+</html>
