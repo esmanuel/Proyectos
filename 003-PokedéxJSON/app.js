@@ -8,7 +8,7 @@ let pokemon = JSON.parse(poke_file).result;
 //funcion search de evento oninput 
 const search = () => {
   let characters = search_character(searchInput.value.toLowerCase());
- 
+ console.log(characters);
   listResults.innerHTML = '';
   let results = '';
  
