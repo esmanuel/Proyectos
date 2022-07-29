@@ -5,7 +5,6 @@ let listResults = document.getElementById('list-results');
 //Trae los resultados de pokeapi.js con la constante poke_file que se introduce en los parentesis de json.parse()
 let pokemon = JSON.parse(poke_file).result;
 
-let results = '';
 //funcion search de evento oninput 
 const search = () => {
   let characters = search_character(searchInput.value.toLowerCase());
